@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial scale=1,0">
+	<title>All products Site pap</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+</head>
+<body>
+
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="" width="125px">
+                  </div>
+                  <nav>
+                      <ul id="MenuItems">
+                          <li><a href="">Home</a></li>
+                          <li><a href="">Produtos</a></li>
+                          <li><a href="">Sobre</a></li>
+                          <li><a href="">Contatos</a></li>
+                          <li><a href="">Conta</a></li> 
+                      </ul>
+                  </nav>
+                  <img src="Images/cart.png" width="30px" height="30px">
+                  <img src="Images/menu.png" class="menu-icon" onclick="menutoggle()">
+
+        </div>
+       
+</div>  
+</div>
+         <!------cart-items details---->
+             <div class="small-container cart-page">
+                 <table>
+                      <tr>
+                          <th>Produto</th>
+                          <th>Quantidade</th>
+                          <th>Subtotal</th>
+                      </tr>
+                      <tr>
+                          <td>
+
+                            <div class="cart-info">
+                                <img width="250px"src="images/Camisola Principal Sporting.jpg.png">
+                                <div>
+                                    <p>Camisola Sporting</p>
+                                    <small>Preço:80,00€</small>
+                                    <br>
+                                    <a href="">Remover></a>
+                                </div>
+                            </div>
+                          </td>
+                          <td><input type="number"value="1"></td>
+                          <td>50,00€</td>
+                      </tr>
+                      <tr>
+                        <td>
+
+                          <div class="cart-info">
+                              <img width="250px" src="Images/Casaco treino sporting(frente).PNG">
+                              <div>
+                                  <p>Casaco treino Sporting</p>
+                                  <small>Preço:60,00€</small>
+                                  <br>
+                                  <a href="">Remover></a>
+                              </div>
+                          </div>
+                        </td>
+                        <td><input type="number"value="1"></td>
+                        <td>50,00€</td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                          <div class="cart-info">
+                              <img width="250px" src="Images/Fato treino Porto.PNG">
+                              <div>
+                                  <p>Fato treino Porto</p>
+                                  <small>Preço:60,00€</small>
+                                  <br>
+                                  <a href="">Remover></a>
+                              </div>
+                          </div>
+                        </td>
+                        <td><input type="number"value="1"></td>
+                        <td>50,00€</td>
+                    </tr>
+                      
+                 </table>
+
+                    <div class="total-price">
+                        <table>
+                            <tr>
+                                <td>Subtotal</td>
+                                <td>200,00€</td>
+                            </tr>
+                            <tr>
+                                <td>Tax</td>
+                                <td>30,00€</td>
+                            </tr>
+                            <tr>
+                                <td>Subtotal</td>
+                                <td>230,00€</td>
+                            </tr>
+                        </table>
+                    </div>
+
+             </div>
+   
+        <!------footer---->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Baixar aplicativo</h3>
+                        <p>Baixar app para para android!</p>
+                        <div class="app-logo">
+                             <img src="Images/app-store.png">
+                             <img src="Images/play-store.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="" alt="">
+                        <p>Baixar app para para android!</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Segue-nos!</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                    </ul>
+                    </div>
+                </div>
+                <hr>
+               
+            </div>
+        </div>
+
+<!------js for toggle menu------>
+
+<script>
+    var MenuItems=document.getElementById("MenuItems");
+    MenuItems.style.maxHeight="0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight=="0px")
+        {
+            MenuItems.style.maxHeight="200px"; 
+        }
+        else{
+            MenuItems.style.maxHeight="0px";
+        }
+    }
+
+</script>
+
+</body>
+</html>
