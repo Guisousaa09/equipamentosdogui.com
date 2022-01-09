@@ -1,0 +1,1 @@
+# equipamentosdogui.com
